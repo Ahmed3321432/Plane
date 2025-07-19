@@ -34,7 +34,16 @@ background-color:aliceblue;
 .card img:hover {
      transform: scale(1.2);
      }
-.footer {
+.row img{
+     height: 200px;
+     object-fit: cover;
+     transition: transform 0.3s;
+
+}
+.row img:hover{
+     transform:scale(1.1);
+}
+     .footer {
      background-color: #0066cc;
       color: rgb(255, 255, 255);
        text-align: center;
