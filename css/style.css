@@ -54,3 +54,76 @@ background-color:aliceblue;
     animation: fadeIn 2s ease-in;
  }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.custom-footer {
+            background-color: #212529; /* Dark background */
+            color: #ffffff; /* White text */
+            padding: 40px 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .custom-footer a {
+            color: #ffffff; /* White links */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .custom-footer a:hover {
+            color: #0d6efd; /* Bootstrap primary blue on hover */
+        }
+
+        /* Styling for professional page buttons */
+        .custom-footer .page-button {
+            display: block; /* لجعل كل زر يأخذ سطرًا كاملاً */
+            background-color: #343a40; /* لون خلفية داكن للأزرار */
+            color: #ffffff; /* لون النص أبيض */
+            padding: 8px 15px; /* مسافة داخلية للزر */
+            margin-bottom: 10px; /* مسافة بين الأزرار */
+            border-radius: 5px; /* حواف دائرية */
+            text-align: center; /* محاذاة النص في المنتصف */
+            transition: background-color 0.3s ease, transform 0.2s ease; /* تأثيرات انتقال ناعمة */
+        }
+
+        .custom-footer .page-button:hover {
+            background-color: #0d6efd; /* لون أزرق جذاب عند التمرير */
+            transform: translateY(-2px); /* تأثير رفع خفيف عند التمرير */
+            color: #ffffff; /* ضمان بقاء النص أبيض عند التمرير */
+            text-decoration: none; /* إزالة الخط تحت النص عند التمرير */
+        }
+
+        /* Styling for image-based social icons */
+        .custom-footer .social-icons-img a {
+            display: inline-block; /* لجعل الروابط بجانب بعضها البعض */
+            margin: 0 8px; /* مسافة بين الأيقونات */
+            transition: transform 0.2s ease; /* تأثير تكبير عند التمرير */
+        }
+
+        .custom-footer .social-icons-img a img {
+            width: 32px; /* حجم الأيقونة */
+            height: 32px;
+            border-radius: 50%; /* لجعل الأيقونات دائرية إذا كانت مربعة */
+            object-fit: cover; /* لضمان ملء الصورة للدائرة */
+        }
+
+        .custom-footer .social-icons-img a:hover {
+            transform: scale(1.1); /* تكبير الأيقونة عند التمرير */
+        }
+
+        /* Styling for phone number link */
+        .custom-footer .phone-link {
+            display: inline-flex; /* لجعل الأيقونة والنص متجاورين */
+            align-items: center; /* لمحاذاة العناصر عموديًا */
+            color: #ffffff;
+            font-size: 1rem;
+            margin-top: 10px; /* مسافة أعلى لرقم الهاتف */
+        }
+
+        .custom-footer .phone-link img {
+            width: 24px; /* حجم أيقونة الهاتف */
+            height: 24px;
+            margin-right: 8px; /* مسافة بين الأيقونة والنص */
+        }
+
+        .custom-footer .phone-link:hover {
+            color: #0d6efd;
+            text-decoration: underline;
+        }
